@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Of_Managers__c</fullName>
+    <description>This field indicates the number of managers reporting to the location.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>No. of managers reporting to this location</inlineHelpText>
+    <label>No. Of Managers</label>
+    <summaryForeignKey>Manager__c.Location__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
